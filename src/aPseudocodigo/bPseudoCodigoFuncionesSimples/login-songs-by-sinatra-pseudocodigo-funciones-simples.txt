@@ -1,0 +1,28 @@
+dargarElementos(){
+dalidarElemtosPagina()
+accesoLogin()
+}
+
+validarElementosPagina(){
+esperarCargaElementos()
+   - validar que se visualice la barra de navegacion en la pagina
+   - validar se visualiza la imagen de sinatra
+   - validar que se visualice el link de login
+}
+
+accesoLogin(){
+esperarCargaElementos()
+  - Validar que muestra el campo de usuario
+    Ingresar usuario
+  - validar que muestta el campo de password
+    ingresar password
+  - valdiar que muestra el boton Login
+   dar click en el boton login
+}
+
+esperarCargaElementos(){
+espera tiempo 30000
+}
+
+
+

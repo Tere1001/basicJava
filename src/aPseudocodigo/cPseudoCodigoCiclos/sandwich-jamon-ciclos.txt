@@ -1,0 +1,14 @@
+contadorSandwich=0
+
+while(contadorSandwich < 5){
+ sandwich_bolonia()
+ contadorSandwich ++
+
+}
+
+while(contadorSandwich < 10){
+ sandwich_Jamon()
+ contadorSandwich ++
+
+}
+

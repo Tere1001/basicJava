@@ -1,0 +1,9 @@
+contadorCancion_Nueva=0
+
+while(contadorCancion_Nueva< 5){
+ cargarElementos()
+ agregarCancion()
+ validarCancionNueva()
+ contadorCancion_Nueva++
+
+}

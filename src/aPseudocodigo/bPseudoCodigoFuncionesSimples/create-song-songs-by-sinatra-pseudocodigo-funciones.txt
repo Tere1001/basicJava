@@ -1,0 +1,31 @@
+cargarElementos(){
+validarElemtosPagina()
+accesoLogin()
+}
+
+validarCargaPaginaCancion(){
+esperarCargaElementos()
+agregarCancion()
+validarCancionNueva()
+
+}
+
+agregarCancion(){
+ - dar clic en el enlace de crear cancion
+ - validar que se muestre los campos de titulo, duracion, fecha y letra
+ - capturar valores en los campos
+ - dar clic en el boton de guardar
+}
+
+
+validarCancionNueva(){
+    -validar que en la lista de canciones se muestra que se guardo con exito la cancion
+    -dar clic en songs
+    - esperar a que se refresquen los elementos de la lista
+    - validar que existe en la lista de canciones la nueva cancion que se agrego
+}
+
+
+esperarCargaElementos(){
+espera tiempo 30000
+}

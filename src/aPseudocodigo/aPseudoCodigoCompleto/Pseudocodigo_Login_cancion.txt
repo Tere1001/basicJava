@@ -1,7 +1,7 @@
 Escenario: Loggin de Aplicacion
-Pre condicion:
- *Navegador abierto,
- *contar com url,
+Pre condicion: 
+ *Navegador abierto, 
+ *contar com url, 
  *contar con credenciales validas
  *contar con letra de cancion a ingresar
 
@@ -12,19 +12,32 @@ Pasos:
    - validar se visualiza la imagen de sinatra
    - validar que se visualice el link de login
 3- Dar clic en Login
-  - Validar que muestra el campo de usuario
+  - Validar que muestra el campo de usuario 
   - validar que muestta el campo de password
   - valdiar que muestra el boton Login
 4- Ingresar Usuario
 5- Ingresar Password
 6- dar click en boton login
 
-7-validar el acceso de login
+7-validar el acceso de login 
   - En caso de que sean correctas las credenciales
       -validar que muestre mensaje de bienvenida en login
       - validar que se visualiza la lista de canciones, nueva cancion
       - validar que se muestre el log out
-
+      
   -En caso de que no sean correctas las credenciales
       - muestra un mensaje de error
       - redirecciona a pagina sinatra
+
+7.1- Agregar una nueva cancion
+ - dar clic en el enlace de crear cancion
+ - validar que se muestre los campos de titulo, duracion, fecha y letra
+ - capturar valores en los campos
+ - dar clic en el boton de guardar
+
+8- validar que en la lista de canciones se muestra que se guardo con exito la cancion
+9 -dar clic en songs
+10- esperar a que se refresquen los elementos de la lista
+11 - validar que existe en la lista de canciones la nueva cancion que se agrego
+
+
